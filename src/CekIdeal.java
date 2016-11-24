@@ -59,10 +59,14 @@ public class CekIdeal extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         jRadioButtonPerempuan = new javax.swing.JRadioButton();
         jRadioButtonLaki = new javax.swing.JRadioButton();
+        jLabel18 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
+        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel1.setBorder(javax.swing.BorderFactory.createMatteBorder(2, 2, 2, 2, new java.awt.Color(51, 204, 255)));
+        jPanel1.setForeground(new java.awt.Color(102, 255, 0));
         jPanel1.setLayout(null);
 
         jLabel2.setText("Nama");
@@ -86,6 +90,8 @@ public class CekIdeal extends javax.swing.JFrame {
         jPanel1.add(jLabel5);
         jLabel5.setBounds(30, 200, 80, 30);
 
+        jButton1.setBackground(new java.awt.Color(51, 51, 51));
+        jButton1.setForeground(new java.awt.Color(102, 255, 204));
         jButton1.setText("Hitung");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -93,8 +99,10 @@ public class CekIdeal extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(100, 260, 120, 30);
+        jButton1.setBounds(50, 260, 120, 30);
 
+        jButton2.setBackground(new java.awt.Color(51, 51, 51));
+        jButton2.setForeground(new java.awt.Color(51, 255, 204));
         jButton2.setText("Coba Lagi");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,8 +110,10 @@ public class CekIdeal extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton2);
-        jButton2.setBounds(230, 260, 120, 30);
+        jButton2.setBounds(180, 260, 120, 30);
 
+        jButton3.setBackground(new java.awt.Color(51, 51, 51));
+        jButton3.setForeground(new java.awt.Color(0, 255, 204));
         jButton3.setText("Keluar");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,7 +121,7 @@ public class CekIdeal extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton3);
-        jButton3.setBounds(360, 260, 120, 30);
+        jButton3.setBounds(310, 260, 120, 30);
 
         jLabel6.setText("Berat Badan Ideal Anda Adalah");
         jPanel1.add(jLabel6);
@@ -120,12 +130,8 @@ public class CekIdeal extends javax.swing.JFrame {
         jLabel7.setText("Hasil Dianogsa Kesehatan");
         jPanel1.add(jLabel7);
         jLabel7.setBounds(180, 360, 230, 30);
-
-        jLabel8.setText("jLabel8");
         jPanel1.add(jLabel8);
         jLabel8.setBounds(30, 430, 510, 30);
-
-        jLabel9.setText("jLabel8");
         jPanel1.add(jLabel9);
         jLabel9.setBounds(30, 390, 510, 30);
 
@@ -185,16 +191,23 @@ public class CekIdeal extends javax.swing.JFrame {
         jPanel1.add(jLabel17);
         jLabel17.setBounds(270, 160, 50, 30);
 
+        jRadioButtonPerempuan.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroupJk.add(jRadioButtonPerempuan);
         jRadioButtonPerempuan.setText("Perempuan");
         jPanel1.add(jRadioButtonPerempuan);
         jRadioButtonPerempuan.setBounds(320, 200, 120, 30);
         jRadioButtonPerempuan.getAccessibleContext().setAccessibleParent(jTextFieldBerat);
 
+        jRadioButtonLaki.setBackground(new java.awt.Color(255, 255, 255));
         buttonGroupJk.add(jRadioButtonLaki);
         jRadioButtonLaki.setText("Laki-laki");
         jPanel1.add(jRadioButtonLaki);
         jRadioButtonLaki.setBounds(170, 200, 120, 30);
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Blue-and-white-wallpaper-ceiling-font-b-roof-b-font-large-mural-wallpaper-seamless-blue-sky.jpg"))); // NOI18N
+        jLabel18.setText("jLabel18");
+        jPanel1.add(jLabel18);
+        jLabel18.setBounds(0, 0, 500, 470);
 
         getContentPane().add(jPanel1);
         jPanel1.setBounds(0, 0, 500, 470);
@@ -297,6 +310,7 @@ public class CekIdeal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
